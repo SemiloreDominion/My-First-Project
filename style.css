@@ -431,7 +431,8 @@ footer{
 .footContainer{
     width:80%;
     margin:auto;
-    padding:2rem 0;
+    padding-top:4rem;
+    padding-bottom:1rem;
 }
 
 .signUp{
@@ -490,4 +491,56 @@ color:white;
     color:white;
     font-size:18px;
     font-weight:400;
+}
+
+.footContact{
+    display:flex;
+    margin-top:5rem;
+}
+
+.serviceSide{
+    display:flex;
+    align-items:center;
+    gap:4rem;
+}
+
+.logoSide{
+    width:40%
+}
+
+.logoSide p{
+    font-family:Montserrat;
+    font-size:16px;
+    font-weight:400;
+    line-height:24.59px;
+    color:white;
+    width:50%
+}
+
+.serviceSide h4{
+    font-family:Montserrat;
+    font-size:18px;
+    font-weight:600;
+    line-height:32.78px;
+    color:white;
+    padding-bottom:1rem;
+}
+
+.serviceSide li{
+    font-family:Montserrat;
+    font-size:16px;
+    font-weight:400;
+    line-height:32.78px;
+    color:white;
+    padding-bottom:0.7rem;
+}
+
+.copyright{
+    font-family:Montserrat;
+    font-size:14px;
+    font-weight:400;
+    line-height:37.78px;
+    color:white;
+    padding-top:2rem;
+    text-align:center;
 }
