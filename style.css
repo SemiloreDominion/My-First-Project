@@ -1001,5 +1001,246 @@ color:white;
     .serviceSide li{
         font-size:14px;
     }
-
 }
+
+    @media screen and (max-width:375px){
+        .hero{
+            display:block;
+            width:90%;
+            margin:auto;
+        }
+    
+        .heroText{
+            width:100%;
+            margin-top:5rem;
+        }
+
+        .heroText h2{
+            width:100%;
+            font-size:25px;
+        }
+    
+        .heroImage{
+            width:100%;
+            margin-left:0rem;
+        }
+
+        .heroBtn button{
+            margin-right: .4rem;
+            font-size:13px;
+            padding:0.5rem 1rem;
+            margin-right:.5rem;
+        }
+
+        .heroForm Input{
+            font-size:12.8px;
+            height:100%;
+        }
+    
+        .heroForm button{
+            width:25%;
+        }
+    
+        .blue{
+        width:45.5px;
+        }
+    
+        .green{
+        width:45.5px;
+        }
+    
+        .affiliateImages{
+        display:flex;
+        gap:3rem;
+        width:100%;
+        margin:auto;
+        margin-top:2rem;
+        margin-bottom:3rem;
+        }
+    
+        .lines{
+            display:flex;
+            width:20%;
+            margin:auto;
+        }
+    
+        .topAffiliate h2{
+            font-size:30px;
+        }
+    
+        .topBenefits h2{
+            font-size:30px;
+        }
+    
+        .medicine{
+            flex-direction:column;
+            margin-top:2rem;
+        }
+        
+        .medicineText h5{
+            font-size: 20px;
+            width:70%;
+            padding-bottom: 1rem;
+        }
+    
+        .option{
+            width:100%;
+        }
+    
+        .optionText p{
+            font-size:13px;
+            font-weight:400;
+            line-height:18px;
+            width:100%;
+        }
+    
+        .clients{
+           flex-direction:column;
+        }
+        
+        .line{
+            display:flex;
+            width:40%;
+            margin:auto
+        }
+        
+        .clientText h2{
+            font-family: Montserrat;
+            font-size: 25px;
+            line-height: 49.18px;
+            margin-bottom:.4rem;
+            font-weight:600;
+        }
+        
+        .clientText p{
+        font-family: Montserrat;
+        font-size: 14px;
+        padding:1rem 0;
+        width:90%;
+        color: rgba(122, 122, 122, 1);
+        }
+        
+        .clientText h5{
+        font-family:Montserrat;
+        font-size: 14px;
+        margin-bottom:2rem;
+        font-weight:500;
+        }
+        
+        .clientImage img{
+            width:100%;
+        }
+        
+        .clientImage{
+            width:100%;
+        }
+        
+        .clientText{
+            width:100%;
+            margin-left:2rem;
+            margin-top:1rem;
+        }
+    
+        .signUp{
+            flex-direction:column;
+        }
+    
+        .signUpText{
+            width:100%;
+        }
+    
+        .footContact{
+            flex-direction:column;
+        }
+    
+        .serviceSide{
+            flex-direction:column;
+        }
+    
+        .logoSide{
+            width:100%;
+        }
+    
+        .logoSide p{
+            width:100%;
+        }
+    
+        .doorstep{
+            flex-direction:column-reverse;
+            margin-top:2rem;
+        }
+        
+        .doorstepText h5{
+            font-size: 20px;
+            width:70%;
+            padding-bottom: 1rem;
+        }
+    
+        .doorstepImage img{
+            width:100%;
+            padding-top:2rem;
+        }
+    
+        .doorText p{
+            font-size:13px;
+            width:100%;
+        }
+    
+        .profile{
+            flex-direction:column;
+            width:100%;
+        }
+    
+        .profileText{
+            width:100%;
+        }
+        
+        .profileText h5{
+            font-size: 20px;
+            width:70%;
+            padding-bottom:.4rem;
+        }
+    
+        .refillText p{
+            font-size:13px;
+            width:100%;
+        }
+    
+        .refillImage img{
+            width:100%;
+        }
+    
+        .signUpInput input{
+            border:none;
+        }
+        .serviceSide h4{
+            font-size:13px;
+        }
+    
+        .serviceSide{
+            gap:1rem;
+            width:100%;
+            align-items: flex-start;
+            flex-direction:column;
+            margin-top:2rem;
+        }
+    
+        .serviceSide li{
+            font-size:14px;
+        }
+
+        .signUpInput input{
+            border:none;
+            width:60%;
+        }
+    
+        .signUpInput button{
+            border:none;
+            padding-top:.612rem;
+            width:37%;
+        }
+
+        .signUpInput{
+            padding-top:1rem;
+        }
+    }
