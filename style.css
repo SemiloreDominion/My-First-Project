@@ -92,7 +92,7 @@ header{
     font-family:Montserrat;
     font-size:16px;
     border:1px solid white;
-    padding:.5rem 2rem;
+    padding:.5rem 1.5rem;
     border-radius:50px;
     cursor:pointer;
     background:none;
@@ -167,11 +167,23 @@ header{
 
 .affiliateImages{
     display:flex;
-    gap:3rem;
+    gap:5rem;
     width:40%;
     margin:auto;
     margin-top:3rem;
     margin-bottom:3rem;
+}
+
+.juhel img{
+    width:100%;
+}
+
+.emzor img{
+    width:100%;
+}
+
+.gsk img{
+    width:100%;
 }
 
 .affiliation{
@@ -200,6 +212,10 @@ header{
     display:flex;
     justify-content:space-between;
     align-items:center;
+}
+
+.medicineImage img{
+    width:100%;
 }
 
 .medicineText h5{
@@ -261,19 +277,16 @@ cursor:pointer;
     width:60%;
 }
 
-.door{
-    display:flex;
-    align-items:center;
-    gap:.7rem;
-    margin-top:1rem;
-}
-
 .doorText p{
     font-family:Montserrat;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.59px;
     text-align: left;
+}
+
+.doorstepImage img{
+    width:80%;
 }
 
 .doorstep button{
@@ -316,13 +329,6 @@ cursor:pointer;
     margin-top:1rem;
 }
 
-.doorText p{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24.59px;
-    text-align: left;
-}
-
 .profileText button{
     font-family:Montserrat;
     font-size: 18px;
@@ -340,6 +346,7 @@ cursor:pointer;
     display:flex;
     justify-content:space-between;
     align-items:center;
+    margin:auto;
 }
 
 .profileText h5{
@@ -357,6 +364,10 @@ cursor:pointer;
     align-items:center;
     gap:.7rem;
     margin-top:1rem;
+}
+
+.refillImage img{
+    width:110%;
 }
 
 .refillText p{
@@ -378,6 +389,8 @@ cursor:pointer;
     align-items:center;
     justify-content:space-between;
     width:90%;
+    padding-top:4rem;
+    padding-bottom:4rem;
 }
 
 .line{
@@ -461,7 +474,7 @@ color:white;
     padding:.7rem;
     border:none;
     border-radius:50px 0 0px 50px;
-    width:70%;
+    width:65%;
     margin-top:1rem;
 }
 
@@ -474,7 +487,7 @@ color:white;
     border:rgba(27, 199, 104, 1);
     margin-left:-.3rem;
     border-radius:0px 50px 50px 0px;
-    width:25%;
+    width:30%;
     font-family:Montserrat;
 }
 
@@ -502,10 +515,11 @@ color:white;
     display:flex;
     align-items:center;
     gap:4rem;
+    width:100%;
 }
 
 .logoSide{
-    width:40%
+    width:70%;
 }
 
 .logoSide p{
@@ -515,7 +529,7 @@ color:white;
     line-height:24.59px;
     color:white;
     width:50%
-}
+}   
 
 .serviceSide h4{
     font-family:Montserrat;
@@ -543,4 +557,449 @@ color:white;
     color:white;
     padding-top:2rem;
     text-align:center;
+}
+
+@media screen and (max-width:1024px){
+    .heroText h2{
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 65.57px;
+    }
+    
+    .heroText p{
+        font-size:16px;
+        font-weight:400;
+        line-height:24.59px;
+        padding:.5rem 0;
+    }
+
+    .heroText{
+        width:50%;
+        margin-top:8rem;
+    }
+
+    .affiliateImages{
+        width:60%;
+    }
+    
+    .optionText p{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24.59px;
+        text-align: left;
+        width:100%;
+    }
+    
+    .medicineText h5{
+        width:70%;
+    }
+
+    .clientText h2{
+        font-size:30px;
+    }
+
+    .signUpInput{
+        width:50%
+    }
+    
+    .serviceSide{
+        gap:3rem;
+    }
+
+    .doorstepImage{
+        width:75%;
+    }
+
+    .doorstepText h5{
+        width:85%;
+    }
+    
+    .doorText p{
+        font-size: 15px;
+        width:100%;
+    }
+    
+    .refillText p{
+        font-size:15px;
+        width:100%;
+    }
+    
+    .profileText{
+        width:80%;
+    }
+
+    .serviceSide{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:768px){
+    nav{
+        display:none;
+    }
+
+    .btn{
+        display:none;
+    }
+
+    .heroText h2{
+        font-size:30px;
+        font-weight:600;
+        line-height:45.57px;
+    }
+
+    .signUpInput input{
+        border:none;
+    }
+
+    .signUpInput button{
+        border:none;
+        padding-top:.637rem;
+    }
+
+    .heroText p{
+        font-size:14px;
+        font-weight:400;
+    }
+
+    .heroText{
+        width:60%;
+        margin-top:6rem;
+    }
+
+    .heroForm Input{
+        width:60%;
+    }
+    
+    .heroImage img{
+        width:115%;
+    }
+
+    .medicineText h5{
+        width:85%;
+        font-size:20px;
+    }
+
+    .optionText p{
+        font-size:11px;
+    }
+
+    .medicineText button{
+        font-size:14px;
+        font-weight:400;
+        padding:.7rem 1rem;
+    }
+
+    .doorstepText h5{
+        width:85%;
+        font-size:20px;
+    }
+
+    .doorstepText p{
+        font-size:11px;
+    }
+
+    .doorstepText button{
+        font-size:14px;
+        font-weight:400;
+        padding:.7rem 1rem;
+    }
+
+    .profileText h5{
+        width:85%;
+        font-size:20px;
+    }
+
+    .profile{
+        padding-top:3rem;
+    }
+
+    .refillText p{
+        font-size:11px;
+    }
+
+    .profileText button{
+        font-size:14px;
+        font-weight:400;
+        padding:.7rem 1rem; 
+    }
+
+    .clientText h2{
+        font-size: 23px;
+        font-weight:500;
+        line-height:39.18px;
+    }
+
+    .clientText h5{
+        font-size:14px;
+        font-weight:500;
+    }
+    
+    .clientText p{
+        font-size: 14px;
+        line-height:25px;
+        width:90%;
+    }
+
+    .blue{
+        width:35px;
+    }
+
+    .green{
+        width:35px;
+    }
+
+    .logoSide p{
+        font-size:14px;
+        width:60%;
+    }
+    
+    .serviceSide h4{
+        font-size:13px;
+    }
+
+    .serviceSide{
+        gap:2rem;
+    }
+
+    .serviceSide li{
+        font-size:14px;
+    }
+
+    .signUpText h3{
+        font-size:18px;
+        font-weight:600;
+    }
+    
+    .signUpText p{
+        font-size:14px; 
+    }
+}
+
+@media screen and (max-width:425px){
+    .hero{
+        display:block;
+        width:90%;
+        margin:auto;
+    }
+
+    .heroText{
+        width:100%;
+        margin-top:5rem;
+    }
+
+    .heroImage{
+        width:100%;
+        margin-left:0rem;
+    }
+
+    .heroBtn button{
+        margin-right: .4rem;
+    }
+
+    .heroForm button{
+        width:25%;
+    }
+
+    .blue{
+    width:45.5px;
+    }
+
+    .green{
+    width:45.5px;
+    }
+
+    .affiliateImages{
+    display:flex;
+    gap:3rem;
+    width:100%;
+    margin:auto;
+    margin-top:2rem;
+    margin-bottom:3rem;
+    }
+
+    .lines{
+        display:flex;
+        width:20%;
+        margin:auto;
+    }
+
+    .topAffiliate h2{
+        font-size:30px;
+    }
+
+    .topBenefits h2{
+        font-size:30px;
+    }
+
+    .medicine{
+        flex-direction:column;
+        margin-top:2rem;
+    }
+    
+    .medicineText h5{
+        font-size: 20px;
+        width:70%;
+        padding-bottom: 1rem;
+    }
+
+    .option{
+        width:100%;
+    }
+
+    .optionText p{
+        font-size:13px;
+        font-weight:400;
+        line-height:18px;
+        width:100%;
+    }
+
+    .clients{
+       flex-direction:column;
+    }
+    
+    .line{
+        display:flex;
+        width:40%;
+        margin:auto
+    }
+    
+    .clientText h2{
+        font-family: Montserrat;
+        font-size: 30px;
+        line-height: 49.18px;
+        margin-bottom:.4rem;
+    }
+    
+    .clientText p{
+    font-family: Montserrat;
+    font-size: 14px;
+    padding:1rem 0;
+    width:90%;
+    color: rgba(122, 122, 122, 1);
+    }
+    
+    .clientText h5{
+    font-family:Montserrat;
+    font-size: 14px;
+    margin-bottom:2rem;
+    font-weight:500;
+    }
+    
+    .clientImage img{
+        width:100%;
+    }
+    
+    .clientImage{
+        width:100%;
+    }
+    
+    .clientText{
+        width:100%;
+        margin-left:2rem;
+        margin-top:1rem;
+    }
+
+    .signUp{
+        flex-direction:column;
+    }
+
+    .signUpText{
+        width:100%;
+    }
+
+    .signUpInput{
+        width:100%;
+    }
+
+    .signUpInput button{
+        width:35%;
+    }
+
+    .footContact{
+        flex-direction:column;
+    }
+
+    .serviceSide{
+        flex-direction:column;
+    }
+
+    .logoSide{
+        width:100%;
+    }
+
+    .logoSide p{
+        width:100%;
+    }
+
+    .doorstep{
+        flex-direction:column-reverse;
+        margin-top:2rem;
+    }
+    
+    .doorstepText h5{
+        font-size: 20px;
+        width:70%;
+        padding-bottom: 1rem;
+    }
+
+    .doorstepImage img{
+        width:100%;
+        padding-top:2rem;
+    }
+
+    .doorText p{
+        font-size:13px;
+        width:100%;
+    }
+
+    .profile{
+        flex-direction:column;
+        width:100%;
+    }
+
+    .profileText{
+        width:100%;
+    }
+    
+    .profileText h5{
+        font-size: 20px;
+        width:60%;
+        padding-bottom: 1rem;
+    }
+
+    .refillText p{
+        font-size:13px;
+        width:100%;
+    }
+
+    .refillImage img{
+        width:100%;
+    }
+
+    .signUpInput input{
+        border:none;
+    }
+
+    .signUpInput button{
+        border:none;
+        padding-top:.612rem;
+    }
+
+    .serviceSide h4{
+        font-size:13px;
+    }
+
+    .serviceSide{
+        gap:1rem;
+        width:100%;
+        align-items: flex-start;
+        flex-direction:column;
+        margin-top:2rem;
+    }
+
+    .serviceSide li{
+        font-size:14px;
+    }
+
 }
